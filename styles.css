@@ -49,15 +49,15 @@
     flex-wrap: wrap;
 }
 
-.inputbox{
+.inputbox {
     position: relative;
-    width: 100%;
+    width: calc(33.33% - 10px); /* Adjusted width for three columns with margin */
     max-width: 500px;
     min-height: 150px;
     background: white;
     color: #333;
     padding: 20px;
-    margin: 20px 5px;
+    margin: 20px 5px; /* Adjusted margin for spacing */
     outline: none;
     border-radius: 5px;
 }
